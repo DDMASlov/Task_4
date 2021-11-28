@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1)
+project(Task4)
+set(Task4_SRC main.cpp class.cpp autotest.cpp)
+set(Task4_HDR main.h class.h autotest.h)
+add_executables(${PROJECT_NAME} ${Task4_SRC} ${Task4_HDR})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 /std:c++14")
